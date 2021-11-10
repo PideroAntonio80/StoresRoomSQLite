@@ -145,7 +145,7 @@ class EditStoreFragment : Fragment() {
 
                                 Snackbar.make(binding.root, R.string.edit_store_message_update_success, Snackbar.LENGTH_SHORT).show()
                             } else {
-                                mActivity?.addS:tore(mStoreEntity!!)
+                                mActivity?.addStore(mStoreEntity!!)
 
                                 //Snackbar.make(binding.root, R.string.edit_store_message_save_success, Snackbar.LENGTH_SHORT).show()
                                 Toast.makeText(mActivity, R.string.edit_store_message_save_success, Toast.LENGTH_SHORT).show()
